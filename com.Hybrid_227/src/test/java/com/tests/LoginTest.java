@@ -26,4 +26,9 @@ public class LoginTest extends BaseClass {
     public void test03() {
     	throw new SkipException("shiping a testcase");
     }
+    @Test
+    public void test04() {
+        System.out.println("Sumit001");
+        
+    }
 }
